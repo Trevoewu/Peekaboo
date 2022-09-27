@@ -1,0 +1,34 @@
+.Blog{
+  color: rgb(95, 132, 170);
+  font-weight: 900;
+  font-size: 30px;
+}
+.BlogCard{
+  margin: 20px;
+  transition: text-decoration 0.15s, color 0.15s;
+}
+.BlogCard a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight:500;
+}
+.BlogCard a:hover{
+  text-decoration: underline;
+  color: rgb(95, 132, 170);
+}
+.dateCard{
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+.dateCard img{
+  height: 100%;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+.Description{
+  margin-top: 10px;
+  font-size: 10px;
+  padding-left: 10px;
+}

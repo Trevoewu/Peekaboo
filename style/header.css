@@ -1,0 +1,32 @@
+
+.Header{
+  /* background-color: linen; */
+  display: flex;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  border-bottom: 1px solid rgb(220, 216, 216);
+  align-items: center;
+  z-index: 100;
+  background-color: white;
+
+}
+.selectCard,.selectCard-name
+{
+  margin: 20px;
+  height: 60px;
+  font-size: small;
+  color: rgb(83, 81, 81);
+  transition: background-color 0.15s;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.selectCard:hover{
+  background-color: rgb(234, 233, 233);
+}
+.selectCard-name{
+  font-weight: bold;
+}

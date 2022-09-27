@@ -1,0 +1,22 @@
+body{
+  margin-bottom: 100px;
+  font-family: 'Montserrat', 'Noto Serif SC', serif;
+  padding-top: 60px;
+  padding-left: 180px;
+  padding-right: 100px;
+  background-color: white;
+}
+a:link { 
+  text-decoration: none; color: black;
+}
+a:active { 
+  text-decoration:blink
+}
+a:hover { 
+  text-decoration:underline; 
+  color: rgb(76, 76, 76);
+  cursor: pointer;
+}
+.BlogPicture{
+  width: 500px;
+}

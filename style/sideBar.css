@@ -1,0 +1,77 @@
+.displayCard{
+  /* border-right: 1px solid rgb(220, 216, 216); */
+  background-color: white;
+  position: fixed;
+  top: 60px;
+  bottom: 0px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  align-items: center;
+  z-index: 1;
+}
+.displayCard img{
+  height: 15px;
+  margin: 10px;
+}
+.Avatar{
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: antiquewhite;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.Avatar img{
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+  border: none;
+  object-fit: cover;
+}
+.FollowButton{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(205, 203, 203);
+  border-radius: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(140, 140, 140);
+  transition: background-color 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.FollowButton:hover{
+  background-color: black;
+  color: white;
+}
+.name{
+  margin-top: 10px;
+  font-size: small;
+  color: rgb(23, 23, 23);
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.Profile{
+  display: flex;
+  align-items: center;
+}
+.Profile div{
+  font-size: 10px;
+}
+.githubLink{
+  color: black;
+  font-size: 10px;
+  
+}
