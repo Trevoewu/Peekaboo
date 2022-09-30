@@ -20,3 +20,7 @@ a:hover {
 .BlogPicture{
   width: 500px;
 }
+em,strong{
+  font-style: normal;
+  font-weight: 600;
+}
