@@ -13,7 +13,7 @@ a:active {
   text-decoration:blink
 }
 a:hover { 
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(95, 132, 170);
   cursor: pointer;
 }
