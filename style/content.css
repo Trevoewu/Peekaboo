@@ -22,6 +22,7 @@
   display: flex;
   align-items: center;
   height: 20px;
+  margin: 10px;
 }
 .dateCard img{
   height: 100%;
