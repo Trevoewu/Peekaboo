@@ -1,12 +1,12 @@
 
 .Header{
-  /* background-color: linen; */
+  /* background-color: rgb(159, 133, 107); */
   display: flex;
   position:fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
+  height: 8%;
   border-bottom: 1px solid rgb(220, 216, 216);
   align-items: center;
   z-index: 100;
@@ -14,7 +14,7 @@
 }
 .selectCard,.selectCard-name
 {
-  margin: 20px;
+  margin: 1%;
   height: 60px;
   font-size: small;
   color: rgb(83, 81, 81);
